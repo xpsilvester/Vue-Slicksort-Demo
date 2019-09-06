@@ -27,7 +27,7 @@ dist/index.html
 
 ### Key Code 
 ##### path: Script/src/index.vue
-```HTML
+```html
 <template>
     <div>
         <SlickList :lockToContainerEdges="true" class="list" lockAxis="y" v-model="list">
