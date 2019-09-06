@@ -6,6 +6,7 @@ A demo of vue-slicksort : A set of component mixins to turn any list into an ani
 
 Reference link : [vue-slicksort - npm](https://www.npmjs.com/package/vue-slicksort?activeTab=readme) 、 [source](https://github.com/Jexordexan/vue-slicksort)
 
+
 ### Preview
 
 ![拖拽排序预览][1]
@@ -17,6 +18,11 @@ npm install
 ```
 ```
 npm start
+```
+or Click
+
+```
+dist/index.html
 ```
 
 ### Key Code 
@@ -88,4 +94,4 @@ lockOffset|String|50%|对正在拖拽的元素锁定容器边缘的偏移量
 shouldCancelStart|Function|-|在拖拽开始前这个方法将被调用
 getHelperDimensions|Function|-|可选方法({node,|index,|collection}),用于返回SortableHelper的计算尺寸
 
-[1]: https://raw.githubusercontent.com/xpsilvester/Vue-Slicksort-Demo/slicksort.gif
+[1]: https://raw.githubusercontent.com/xpsilvester/Vue-Slicksort-Demo/master/slicksort.gif
